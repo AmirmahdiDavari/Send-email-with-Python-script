@@ -9,7 +9,7 @@ try:
     EMAIL_USE_TLS = True
     EMAIL_PORT_SSL = 465
     EMAIL_HOST_USER = 'your email address'
-    EMAIL_HOST_PASSWORD = 'Your email password or your  smyp email key'
+    EMAIL_HOST_PASSWORD = 'Your email password or your  smtp email key'
 
     msg['Subject'] = 'send_message(msg)'
     msg['From'] = EMAIL_HOST_USER
